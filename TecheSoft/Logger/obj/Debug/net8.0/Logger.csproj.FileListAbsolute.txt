@@ -1,0 +1,15 @@
+C:\Projects\24X7Technologies\TecheSoft\Logger\bin\Debug\net8.0\Logger.exe
+C:\Projects\24X7Technologies\TecheSoft\Logger\bin\Debug\net8.0\Logger.deps.json
+C:\Projects\24X7Technologies\TecheSoft\Logger\bin\Debug\net8.0\Logger.runtimeconfig.json
+C:\Projects\24X7Technologies\TecheSoft\Logger\bin\Debug\net8.0\Logger.dll
+C:\Projects\24X7Technologies\TecheSoft\Logger\bin\Debug\net8.0\Logger.pdb
+C:\Projects\24X7Technologies\TecheSoft\Logger\obj\Debug\net8.0\Logger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\24X7Technologies\TecheSoft\Logger\obj\Debug\net8.0\Logger.AssemblyInfoInputs.cache
+C:\Projects\24X7Technologies\TecheSoft\Logger\obj\Debug\net8.0\Logger.AssemblyInfo.cs
+C:\Projects\24X7Technologies\TecheSoft\Logger\obj\Debug\net8.0\Logger.csproj.CoreCompileInputs.cache
+C:\Projects\24X7Technologies\TecheSoft\Logger\obj\Debug\net8.0\Logger.sourcelink.json
+C:\Projects\24X7Technologies\TecheSoft\Logger\obj\Debug\net8.0\Logger.dll
+C:\Projects\24X7Technologies\TecheSoft\Logger\obj\Debug\net8.0\refint\Logger.dll
+C:\Projects\24X7Technologies\TecheSoft\Logger\obj\Debug\net8.0\Logger.pdb
+C:\Projects\24X7Technologies\TecheSoft\Logger\obj\Debug\net8.0\Logger.genruntimeconfig.cache
+C:\Projects\24X7Technologies\TecheSoft\Logger\obj\Debug\net8.0\ref\Logger.dll
