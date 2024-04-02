@@ -11,3 +11,14 @@
 /TecheSoft/API/TecheSoft/obj/Debug/net8.0
 *.suo
 /TecheSoft/API/TecheSoft/obj/Release/net8.0
+/TecheSoft/API/TecheSoft/bin/Debug/net8.0
+/TecheSoft/.vs/TecheSoft/config/applicationhost.config
+/TecheSoft/Common/DTO/bin/Debug/net8.0
+/TecheSoft/Common/DTO/obj/Debug/net8.0
+/TecheSoft/Common/DTO/obj
+/TecheSoft/Common/EncryptDecrypt/bin/Debug/net8.0
+/TecheSoft/Common/EncryptDecrypt/obj/Debug/net8.0/ref
+/TecheSoft/Common/Filter/bin/Debug/net8.0
+/TecheSoft/Common/EncryptDecrypt/obj/Debug/net8.0/refint
+/TecheSoft/Logger/bin/Debug/net8.0
+/TecheSoft/Common/Filter/obj
