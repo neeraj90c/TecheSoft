@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EncryptDecrypt
 {
-    internal class Encrypt
+    public static class Encrypt
     {
         //public class CryptorEngine
         //{
@@ -18,7 +18,7 @@ namespace EncryptDecrypt
         /// <param name="useHashing">use hashing? send to for extra secirity</param>
         /// <returns></returns>
         //public static string enCrypt(string toEncrypt, bool useHashing)
-        public string enCrypt(string toEncrypt, bool useHashing, string SecurityKey)
+        public static string enCrypt(string toEncrypt, bool useHashing, string SecurityKey)
         {
             if (toEncrypt == "")
             {

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EncryptDecrypt
 {
-    internal class Decrypt
+    public static class Decrypt
     {
         /// <summary>
         /// DeCrypt a string using dual encryption method. Return a DeCrypted clear string
@@ -15,7 +15,7 @@ namespace EncryptDecrypt
         /// <param name="cipherString">encrypted string</param>
         /// <param name="useHashing">Did you use hashing to encrypt this data? pass true is yes</param>
         /// <returns></returns>
-        public string deCrypt(string cipherString, bool useHashing, string SecurityKey)
+        public static string deCrypt(string cipherString, bool useHashing, string SecurityKey)
         //public static string deCrypt(string cipherString, bool useHashing)
         {
             if (cipherString == "")

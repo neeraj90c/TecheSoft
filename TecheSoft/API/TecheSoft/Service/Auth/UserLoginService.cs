@@ -10,9 +10,9 @@ namespace TecheSoft.Service.Auth
 {
     public class UserLoginService : DABase, IUserLogin
     {
-        private const string SP_spGetBPCode = "spGetBPCode";
+        private const string SP_UserLogin_Validate = "dbn.UserLogin_Validate";
         private ILogger<UserLoginService> _logger;
-        public UserLoginService(IOptions<ConnectionSettings> connectionSettings, ILogger<UserLoginService> logger) : base(connectionSettings.Value.AppKeyPath)
+        public UserLoginService(IOptions<ConnectionSettings> connectionSettings, ILogger<UserLoginService> logger) : base(connectionSettings.Value.SchDmoPT)
         {
             _logger = logger;
         }
@@ -24,9 +24,10 @@ namespace TecheSoft.Service.Auth
 
             using (SqlConnection connection = new SqlConnection(ConnectionString))
             {
-                retObj = await connection.QuerySingleOrDefaultAsync<UserMasterDTO>(SP_spGetBPCode, new
+                retObj = await connection.QuerySingleOrDefaultAsync<UserMasterDTO>(SP_UserLogin_Validate, new
                 {
-                    GroupCode = userLoginRequestDTO.GroupCode,
+                    UserName = userLoginRequestDTO.UserName,
+                    UserPWD = userLoginRequestDTO.UserPWD,
                 }, commandType: CommandType.StoredProcedure);
 
             }
