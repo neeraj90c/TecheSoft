@@ -15,7 +15,7 @@
     <Folder Include="Command\Auth\" />
     <Folder Include="Controllers\Auth\" />
     <Folder Include="DTO\Auth\" />
-    <Folder Include="Extension\" />
+    <Folder Include="Extensions\" />
     <Folder Include="Interface\Auth\" />
     <Folder Include="Service\Auth\" />
   </ItemGroup>
