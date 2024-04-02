@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.vsidx
+*.wsuo
+*.json
+*.sqlite
+*.bin
+*.v2
+/TecheSoft/API/TecheSoft/obj/Debug/net8.0
+*.suo
+/TecheSoft/API/TecheSoft/obj/Release/net8.0

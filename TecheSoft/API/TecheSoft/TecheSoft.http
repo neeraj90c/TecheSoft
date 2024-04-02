@@ -1,0 +1,6 @@
+@TecheSoft_HostAddress = http://localhost:5226
+
+GET {{TecheSoft_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
